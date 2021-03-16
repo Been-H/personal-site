@@ -1,0 +1,43 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    color: $color-white;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+.stand-out {
+    display: inline-block;
+    color: $compl;
+    font-weight: 700;
+}
+
+.text-change {
+    position: relative;
+}
+
+.heading-primary {
+    font-weight: 600;
+    display: block;
+    transform: translateY(50%);
+    font-size: 8rem;
+}
+
+.heading-secondary {
+    font-weight: 500;
+    font-size: 5rem;
+}
+
+.heading-tertiary {
+    font-size: 2.7rem;
+    font-weight: 400;
+    display: block;
+}

@@ -1,0 +1,32 @@
+@-webkit-keyframes compl_change {
+    from {
+        color: $color-white;
+    }
+    to {
+        color: $compl;
+    }
+}
+
+@keyframes blink {
+    0% {
+        display: none
+    }
+    55% {
+        display: none;
+    }
+    100% {
+        display: inline-block;
+    }
+}
+
+@keyframes down-arrow {
+    0% {
+        transform: translate(-50%, -2rem);
+    }
+    40% {
+        transform: translate(-50%, 0);
+    }
+    100% {
+        transform: translate(-50%, -2rem);
+    }
+}
