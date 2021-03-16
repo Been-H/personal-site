@@ -224,7 +224,11 @@ p {
 
 @media screen and (max-width: 850px) {
   html {
-    font-size: 40%; } }
+    font-size: 40%; } 
+  body {
+    margin: 1%;
+  } 
+}
 
 @media screen and (max-width: 650px) {
   html {
