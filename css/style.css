@@ -106,7 +106,7 @@ p {
       list-style-type: none;
       display: flex;
       align-items: center;
-      justify-content: space-between; }
+      justify-content: space-around; }
       .header__nav .nav-links__link {
         display: inline-flex;
         transition: all .35s;
@@ -232,7 +232,11 @@ p {
 
 @media screen and (max-width: 650px) {
   html {
-    font-size: 35%; } }
+    font-size: 35%; } 
+  body {
+    margin: 0.25%;
+  }
+}
 
 @media screen and (max-width: 600px) {
   html {
