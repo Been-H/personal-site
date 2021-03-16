@@ -169,7 +169,7 @@ p {
   .btn__border {
     color: #fff;
     background-color: transparent;
-    border: 2px solid #fc5185; }
+    border: 0.4rem solid #fc5185; }
   .btn__cta {
     background-color: #fc5185;
     color: #fff; }
