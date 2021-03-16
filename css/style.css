@@ -103,7 +103,8 @@ p {
       font-weight: 600;
       font-family: 'Indie Flower', cursive; }
     .header__nav .nav-links {
-      flex: 2;
+      flex: 1;
+      background-color: red;
       width: 55rem;
       list-style-type: none;
       display: flex;
