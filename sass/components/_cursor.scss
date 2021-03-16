@@ -1,0 +1,19 @@
+.text-change::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 50%;
+    top: 25%;
+    background-color: $color-white;
+    border: 1px solid $color-white;
+    animation: blink .75s ease infinite;
+}
+
+@keyframes blink {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

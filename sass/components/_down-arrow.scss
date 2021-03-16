@@ -1,0 +1,11 @@
+.down-arrow {
+    position: absolute;
+    text-align: center;
+    top: 80%;
+    left: 50%;
+    animation: down-arrow ease-out 1.5s infinite;
+    img {
+        width: 5rem;
+        height: 5rem;
+    }
+}
