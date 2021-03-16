@@ -98,10 +98,12 @@ p {
     align-items: center;
     width: 100%; }
     .header__nav__logo {
+      flex: 1;
       font-size: 2.4rem;
       font-weight: 600;
       font-family: 'Indie Flower', cursive; }
     .header__nav .nav-links {
+      flex: 2;
       width: 55rem;
       list-style-type: none;
       display: flex;
