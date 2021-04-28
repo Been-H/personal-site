@@ -1,0 +1,20 @@
+.projects {
+    margin: 6rem auto 0 auto;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 33% 33% 33%;
+    &__project {
+        text-align: center;
+        transition: all .4s;
+        margin: 0 auto;
+        padding: 2.5rem;
+        width: 80%;
+        background-color: $close-primary;
+        &:hover {
+            transform: translateY(-2rem);
+        }
+    }
+    &__img {
+        width: 90%;
+    }
+}
