@@ -151,6 +151,12 @@ p {
 
 .wcm {
   width: 100%; }
+  .wcm__reason {
+    width: 100%; }
+  .wcm__text {
+    width: 50%; }
+    .wcm__text__right {
+      float: right; }
 
 .contact__text {
   text-align: center; }
@@ -181,11 +187,12 @@ p {
   transition: all .2s;
   text-decoration: none;
   padding: 1.5rem 5rem;
-  margin-right: 4rem;
   color: #000;
   border-radius: none; }
   .btn .btn:hover {
     transform: translateY(-2px); }
+  .btn__sit_left {
+    margin-right: 4rem; }
   .btn__border {
     color: #fff;
     background-color: transparent;
