@@ -343,11 +343,13 @@ footer {
   html {
     font-size: 40%; } }
 
+@media screen and (max-width: 800px) {
+  .wcm__reasons {
+    flex-direction: column; } }
+
 @media screen and (max-width: 650px) {
   html {
-    font-size: 35%; }
-  body {
-    margin: 2%; } }
+    font-size: 35%; } }
 
 @media screen and (max-width: 600px) {
   html {
