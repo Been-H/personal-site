@@ -29,7 +29,9 @@
 
 html {
   position: relative;
-  width: 100%; }
+  width: 100%; 
+  overflow-x: hidden;
+}
 
 body {
   margin-top: 3rem;
