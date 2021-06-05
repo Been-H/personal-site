@@ -39,7 +39,7 @@
 
     <main>
         <section class="contact-form">
-            <div class="form">
+            <form action="https://formspree.io/f/mbjqobpa" method="POST" class="form">
                 <div class="title u-center-text">
                     <h3 class="heading-tertiary">Contact:</h3>
                 </div>
@@ -61,9 +61,14 @@
                         <span class="content-name">Message</span>
                     </label>
                 </div>
-                <a class="btn" type="submit">Send</a>
-            </div>
+                <a href="#" onclick="sendForm()" class="btn">Send</a>
+            </form>
         </section>
     </main>
+    <script>
+        function sendForm() {
+            document.querySelector(".form").submit();
+        }
+    </script>
 
 </html>
