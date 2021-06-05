@@ -295,7 +295,11 @@ p {
 }
 
 .btn__submit {
-    width: 15%;
+    display: inline-block;
+    height: 0;
+    width: 0;
+    padding: 1.5rem 5rem;
+    color: white;
 }
 
 .btn__secondary {
