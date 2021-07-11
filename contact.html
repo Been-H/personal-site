@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 
-
     <title>Ben Hodges Design</title>
 </head>
 
@@ -17,7 +16,7 @@
 
         <nav class="header__nav">
             <div class="header__nav__logo">
-                <h3>Ben Hodges</h3>
+                <img src="img/logo.jpg" alt="" class="header__nav__logo__image">
             </div>
             <ul class="nav-links">
                 <li>
@@ -33,7 +32,11 @@
                     <a class="nav-links__link" href="contact.html">Contact</a>
                 </li>
             </ul>
-
+            <div class="hamburger">
+                <div id="line1" class="line"></div>
+                <div id="line2" class="line"></div>
+                <div id="line3" class="line"></div>
+            </div>
         </nav>
     </header>
 
@@ -65,10 +68,18 @@
             </form>
         </section>
     </main>
+
+    <div class="loader-wrapper">
+        <span class="loader-wrapper__loader">
+            <span class="loader-wrapper__loader__loader-inner"></span>
+        </span>
+    </div>
+    <script src="js/index.js"></script>
     <script>
         function sendForm() {
             document.querySelector(".form").submit();
         }
     </script>
+</body>
 
 </html>

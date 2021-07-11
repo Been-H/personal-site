@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <title>Ben Hodges Design</title>
+    <title>Hodges Web Development</title>
 </head>
 
 <body>
@@ -17,9 +17,11 @@
 
         <nav class="header__nav">
             <div class="header__nav__logo">
-                <h3>Ben Hodges</h3>
+                <img src="img/logo.jpg" alt="" class="header__nav__logo__image">
             </div>
+
             <ul class="nav-links">
+
                 <li>
                     <a class="nav-links__link" href="index.html">Home</a>
                 </li>
@@ -33,7 +35,11 @@
                     <a class="nav-links__link" href="contact.html">Contact</a>
                 </li>
             </ul>
-
+            <div class="hamburger">
+                <div id="line1" class="line"></div>
+                <div id="line2" class="line"></div>
+                <div id="line3" class="line"></div>
+            </div>
         </nav>
     </header>
 
@@ -103,18 +109,18 @@
             <div class="skills ">
                 <div class="skills__skill " aos-anchor-placement="bottom-bottom" data-aos='fade-up' data-aos-once="true" data-aos-duration="900" data-aos-delay="0">
                     <h3 class="heading-tertiary u-margin-bottom-small ">Design</h3>
-                    <img src="img/natours.png " alt=" " class="u-margin-bottom-small skills__img ">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elloremque odit error dolor dolores minima! Officiis minima quis et.</p>
+                    <img src="img/web-design.png " alt=" " class="u-margin-bottom-small skills__img ">
+                    <p>I have designed many websites and have a firm grasp of layout, basic typography, and how to pick/create colors schemes.</p>
                 </div>
                 <div class="skills__skill " aos-anchor-placement="bottom-bottom" data-aos='fade-up' data-aos-once="true" data-aos-duration="900" data-aos-delay="300">
-                    <h3 class="heading-tertiary u-margin-bottom-small ">HTML, SCSS, JavaScript</h3>
-                    <img src=" " alt=" ">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elloremque odit error dolor dolores minima! Officiis minima quis et.</p>
+                    <h3 class="heading-tertiary u-margin-bottom-small ">SCSS</h3>
+                    <img src="img/scss-icon.png" alt=" " class="u-margin-bottom-small skills__img">
+                    <p>I have a lot of experience with SCSS, which allows me to easily revise your websites in the future. This way, your website can continue to suit your business' ever-changing needs.</p>
                 </div>
                 <div class="skills__skill " aos-anchor-placement="bottom-bottom" data-aos='fade-up' data-aos-once="true" data-aos-duration="900" data-aos-delay="500">
-                    <h3 class="heading-tertiary u-margin-bottom-small ">Backend Functionality</h3>
-                    <img src=" " alt=" ">
-                    <p>Blogs, eccomerce, content uploading, you name it! <br><br> With the Django web framework, I can do it for you!</p>
+                    <h3 class="heading-tertiary u-margin-bottom-small ">JavaScript</h3>
+                    <img src="img/js-icon.png" alt=" " class="u-margin-bottom-small skills__img">
+                    <p>With my JavaScript Skills, I can make your website even better with responsive navbars, animations, loading screens, and more!</p>
                 </div>
             </div>
         </section>
@@ -122,12 +128,18 @@
         <section class="contact ">
             <div class="u-center-text ">
                 <h3 class="heading-secondary u-margin-bottom-medium ">Like what you see?</h3>
-                <a style="margin-right: 0; " href="contact.html " class="btn btn_border btn__border__secondary ">Let's Talk</a>
+                <a style="margin-right: 0;" href="contact.html " class="btn btn_border btn__border__secondary ">Let's Talk</a>
             </div>
         </section>
 
     </main>
+    <div class="loader-wrapper">
+        <span class="loader-wrapper__loader">
+            <span class="loader-wrapper__loader__loader-inner"></span>
+        </span>
+    </div>
     <script src="js/index.js"></script>
+    <script src="js/typewriter.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
     <script>
         AOS.init();

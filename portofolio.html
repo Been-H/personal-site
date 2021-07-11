@@ -17,7 +17,7 @@
 
         <nav class="header__nav">
             <div class="header__nav__logo">
-                <h3>Ben Hodges</h3>
+                <img src="img/logo.jpg" alt="" class="header__nav__logo__image">
             </div>
             <ul class="nav-links">
                 <li>
@@ -33,7 +33,11 @@
                     <a class="nav-links__link" href="contact.html">Contact</a>
                 </li>
             </ul>
-
+            <div class="hamburger">
+                <div id="line1" class="line"></div>
+                <div id="line2" class="line"></div>
+                <div id="line3" class="line"></div>
+            </div>
         </nav>
     </header>
 
@@ -42,41 +46,47 @@
             <h1 class="u-center-text heading-primary stand-out u-margin-bottom-medium">View My Work:</h1>
             <div class="portofolio">
                 <div class="portofolio__item u-center-text" aos-anchor-placement="bottom-bottom" data-aos='fade-up' data-aos-once="true" data-aos-duration="900">
+                    <h2 class="heading-tertiary stand-out-blue u-margin-bottom-small">ZenGo</h2>
+                    <a href="https://been-h.github.io/WebDev/meditation_app"><img src="img/zengo.png" alt="" class="portofolio__item__image u-margin-bottom-small"></a>
+                    <p>A website for the imaginary ZenGo meditation app</p>
+                </div>
+                <div class="portofolio__item u-center-text" aos-anchor-placement="bottom-bottom" data-aos='fade-up' data-aos-once="true" data-aos-duration="900">
                     <h2 class="heading-tertiary stand-out-blue u-margin-bottom-small">Snowboarding Evolved</h2>
                     <a href="https://been-h.github.io/WebDev/snowboard/index.html"><img src="img/snowboard.png" alt="" class="portofolio__item__image u-margin-bottom-small"></a>
                     <p>A website for an imaginary snowboarding shop</p>
                 </div>
                 <div class="portofolio__item u-center-text" aos-anchor-placement="bottom-bottom" data-aos='fade-up' data-aos-once="true" data-aos-duration="900">
-                    <h2 class="heading-tertiary stand-out-blue u-margin-bottom-small">Healthy Eatz</h2>
-                    <a href="https://been-h.github.io/WebDev/meditation_app"><img src="img/eatz.png" alt="" class="portofolio__item__image u-margin-bottom-small"></a>
-                    <p>A mock website for a healthy fast food restaurant</p>
+                    <h2 class="heading-tertiary stand-out-blue u-margin-bottom-small">Apple Airpods Pro</h2>
+                    <a href="https://been-h.github.io/WebDev/scroll_based"><img src="img/apple.png" alt="" class="portofolio__item__image u-margin-bottom-small"></a>
+                    <p>No, I didn't make a website for apple, but I recreated some effects with my own code without any references</p>
                 </div>
                 <div class="portofolio__item u-center-text" aos-anchor-placement="bottom-bottom" data-aos='fade-up' data-aos-once="true" data-aos-duration="900">
-                    <h2 class="heading-tertiary stand-out-blue u-margin-bottom-small">ZenGo</h2>
-                    <a href="https://been-h.github.io/WebDev/meditation_app"><img src="img/zengo.png" alt="" class="portofolio__item__image u-margin-bottom-small"></a>
-                    <p>A website for the imaginary ZenGo meditation app</p>
+                    <h2 class="heading-tertiary stand-out-blue u-margin-bottom-small">RASAIRXT</h2>
+                    <a href="https://been-h.github.io/WebDev/laptop"><img src="img/laptop.png" alt="" class="portofolio__item__image u-margin-bottom-small"></a>
+                    <p>A website showing off an imaginary new laptop by "RASAIRXT"</p>
                 </div>
                 <div class="portofolio__item u-center-text" aos-anchor-placement="bottom-bottom" data-aos='fade-up' data-aos-once="true" data-aos-duration="900">
                     <h2 class="heading-tertiary stand-out-blue u-margin-bottom-small">Natours</h2>
                     <img src="img/natours.png" alt="" class="portofolio__item__image u-margin-bottom-small">
                     <p>A mock travel website for the nature lover</p>
                 </div>
-                
-                <div class="portofolio__item u-center-text" aos-anchor-placement="bottom-bottom" data-aos='fade-up' data-aos-once="true" data-aos-duration="900">
-                    <h2 class="heading-tertiary stand-out-blue u-margin-bottom-small">Apple Airpods Pro</h2>
-                    <a href="https://been-h.github.io/WebDev/scroll_based"><img src="img/apple.png" alt="" class="portofolio__item__image u-margin-bottom-small"></a>
-                    <p>A recreation of one of Apple's awesome scroll effects</p>
-                </div>
+
+
             </div>
 
 
-        </section </main>
-        <script src="js/index.js "></script>
-        <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
-        <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
-        <script>
-            AOS.init();
-        </script>
+        </section>
+    </main>
+    <div class="loader-wrapper">
+        <span class="loader-wrapper__loader">
+            <span class="loader-wrapper__loader__loader-inner"></span>
+        </span>
+    </div>
+    <script src="js/index.js "></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 
