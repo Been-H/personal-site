@@ -95,7 +95,8 @@ p {
       display: flex;
       justify-content: flex-start; }
       .header__nav__logo__image {
-        width: 25rem; }
+        width: 25rem;
+        height: auto;}
 
 .nav-links {
   width: 55rem;
