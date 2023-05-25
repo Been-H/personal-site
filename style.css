@@ -121,7 +121,7 @@ p {
   margin: 0 auto 0 auto;
   display: grid;
   width: 100%;
-  grid-template-columns: 33% 33% 33%; }
+  grid-template-columns: 50% 50%; }
   .skills__skill {
     text-align: center;
     transition: all .4s;
