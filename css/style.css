@@ -501,7 +501,9 @@ footer {
 @media screen and (max-width: 800px) {
   .wcm__reasons {
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    background-color: red;
+  }
   .wcm__reasons__reason {
     width: 100%;
   }
