@@ -500,7 +500,11 @@ footer {
 
 @media screen and (max-width: 800px) {
   .wcm__reasons {
-    flex-direction: column; }
+    flex-direction: column;
+    align-items: center; }
+  .wcm__reasons__reason {
+    width: 100%;
+  }
   .skills {
     grid-template-columns: 100%;
     grid-row-gap: 4rem; } }
